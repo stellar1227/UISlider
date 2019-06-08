@@ -1,16 +1,14 @@
-# UiSlider
+# vanillar version 
+- 2018.06.08 first
 
-## vanilla / vue  / react 중 하나
-branch - vanilla
+## 기능구현 1
+1. Device Check
+2. Data Setting
+3. Drawing
+4. Slide Move Event(Next/Previous)
 
-## 요구사항
-- IE10 Upper , chrome, firefox
-- mobile screen 768px lower
-- no plugin
-- keyboard accessiblity [참고](https://nuli.navercorp.com/sharing/a11y/checklist/4.2.1)
-  - mouse touch / over / out 시 stop
-  - no paging
-- 이벤트 핸들링 (capturing /bubbling에 대한 이해 및 - 문제 해결방법 md)
-- 반응형 
-- yarn 사용 시 port 3000
-  
+## 기능구현 2
+1. 반응형 MediaQuery설정 
+2. Device에 따른 touchMove 이벤트 
+3. 키보드 이벤트 설정 (접근성)
+
