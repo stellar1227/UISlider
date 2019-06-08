@@ -1,0 +1,14 @@
+{
+  "name": "UISlider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/stellar1227/UISlider.git",
+  "author": "이미진 <halfjin7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts" : {
+    "start" : "yarn live-server src --port=3000"
+  }
+}

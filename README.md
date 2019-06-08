@@ -1,5 +1,6 @@
 # vanillar version 
 - 2018.06.08 first
+- yarn start (live-server 실행)
 
 ## 기능구현 1
 1. Device Check
