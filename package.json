@@ -6,9 +6,11 @@
   "author": "이미진 <halfjin7@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "node-sass": "^4.12.0"
   },
-  "scripts" : {
-    "start" : "yarn live-server src --port=3000"
+  "scripts": {
+    "start": "yarn live-server src --port=3000",
+    "sass" : "node-sass --watch --style compressed src/scss/slider.scss src/css/slider.css"
   }
 }

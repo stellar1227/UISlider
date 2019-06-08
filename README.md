@@ -2,6 +2,9 @@
 - 2018.06.08 first
 - yarn start (live-server 실행)
 
+#mockData
+https://s3.ap-northeast-2.amazonaws.com/static.wanted.co.kr/homework/data.json
+
 ## 기능구현 1
 1. Device Check
 2. Data Setting
